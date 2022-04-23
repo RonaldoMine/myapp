@@ -52,6 +52,7 @@ class _MyScaffoldState extends State<MyScaffold> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          elevation: 0,
           leading: const IconButton(
             icon: Icon(Icons.menu_outlined),
             onPressed: null,
